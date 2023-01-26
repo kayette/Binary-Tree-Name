@@ -138,3 +138,6 @@ if __name__ == "__main__":
 
     vkj_tree.delete("K")
     print("\nAfter deleting the letter 'K':\nIn order traversal:", vkj_tree.in_order(), "\nPre order traversal:", vkj_tree.pre_order(), "\nPost order traversal:", vkj_tree.post_order())
+
+    print("\nDoes the name contain the letter J?", vkj_tree.search("J"))
+    print("Does the name contain the letter P?", vkj_tree.search("P"))
